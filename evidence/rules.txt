@@ -1,0 +1,27 @@
+✔ yellow has priority at inclusive boundaries; green outside yellow; blank misses (2.1525ms)
+✔ all D4 outcomes and natural-only criticals (0.3767ms)
+✔ green attack may miss without breaking timing combo; perfect hit and natural crit differ (1.731ms)
+✔ 350ms input lock rejects repeated taps and then resets scanning (0.4181ms)
+✔ blank miss resets combo, keeps targets and does not harm player (0.9974ms)
+✔ half-heart health, healing cap and no-heal feedback (0.1852ms)
+✔ guard absorbs one hit, never stacks, and expires (0.3261ms)
+✔ speed clamps and changes do not alter enemy clock (0.1564ms)
+✔ first upgrade is chosen through timing, then summon enters action pool (0.6114ms)
+✔ upgrade choices respect limits and lack duplicate options (0.4713ms)
+✔ summon duration cap, attacks, structural growth and expiry (1.043ms)
+✔ hazard can be blocked, resets combo, has no hidden follow-up damage (0.1946ms)
+✔ enemy windup, seeded rolls, ape heal and shadow threat are actionable (1.3961ms)
+✔ paused game freezes cursor, enemy, familiar and shield; restart clears run (0.4883ms)
+✔ three victories preserve progression, heal once and cancel old enemy attacks (0.2697ms)
+✔ player death takes priority and emits one terminal event (0.1083ms)
+✔ simultaneous fatal impacts lose; an earlier kill cancels the enemy impact (0.2303ms)
+✔ weighted tiles stay separate, distinct and cannot omit attack for 3 rounds (0.6921ms)
+✔ red threats cannot replace the only attack or break the attack availability guarantee (0.7106ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 194.3278

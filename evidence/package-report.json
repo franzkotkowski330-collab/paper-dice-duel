@@ -1,0 +1,12 @@
+{
+  "url": "http://127.0.0.1:5318/",
+  "checks": [
+    "Ten rapid clicks produce exactly one judgement during the lock.",
+    "A held touch and its compatibility events do not repeat an action.",
+    "The next distinct touch resolves once.",
+    "The pause button never also triggers a combat judgement.",
+    "The packaged page loads all seven local images with no HTTP or page errors."
+  ],
+  "errors": [],
+  "failedResponses": []
+}

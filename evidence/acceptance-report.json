@@ -1,0 +1,210 @@
+{
+  "url": "http://127.0.0.1:5318/",
+  "checks": [
+    "desktop three chapters won with real mouse and Space input",
+    "desktop victory replay resets growth, health and enemy",
+    "desktop pause freezes every rule timer",
+    "desktop held Space suppresses repeated actions",
+    "desktop defeat and retry follow normal inputs",
+    "desktop preferences, best score and tutorial persist; run does not",
+    "mobile three chapters won with real touch input",
+    "mobile victory replay resets growth, health and enemy",
+    "mobile pause freezes every rule timer",
+    "portrait automatically pauses; landscape requires explicit resume",
+    "mobile held Space suppresses repeated actions",
+    "mobile defeat and retry follow normal inputs",
+    "mobile preferences, best score and tutorial persist; run does not",
+    "GOOD with low natural D4 misses while retaining timing combo",
+    "blank miss does not damage health and breaks combo",
+    "no browser page errors"
+  ],
+  "runs": [
+    {
+      "name": "desktop",
+      "actions": 18,
+      "state": {
+        "phase": "won",
+        "paused": false,
+        "pauseReason": "manual",
+        "time": 22.246999999999357,
+        "wave": 2,
+        "hp": 6,
+        "maxHp": 6,
+        "enemyHp": 0,
+        "enemyMaxHp": 14,
+        "score": 2500,
+        "combo": 18,
+        "bestCombo": 18,
+        "level": 5,
+        "xp": 0,
+        "pendingUpgrades": 0,
+        "upgradesChosen": 4,
+        "upgradeMode": false,
+        "attackUpgrades": 2,
+        "windowUpgrades": 1,
+        "summonUnlocked": true,
+        "paceOffset": 0,
+        "marker": 0.4814444444444441,
+        "lockUntil": 22.37699999999936,
+        "locked": true,
+        "refreshAfterLock": true,
+        "tiles": [
+          {
+            "kind": "attack",
+            "center": 0.4808814824791625,
+            "width": 0.18
+          },
+          {
+            "kind": "slow",
+            "center": 0.7778251471696421,
+            "width": 0.18
+          }
+        ],
+        "shield": 0,
+        "shieldUntil": 0,
+        "threatUntil": 0,
+        "familiarLevel": 1,
+        "familiarUntil": 24.612999999999943,
+        "familiarCount": 2,
+        "familiarNextAttack": 22.612999999999943,
+        "enemyNextAt": null,
+        "enemyWinding": false,
+        "enemyIntent": "attack",
+        "enemyActions": 2,
+        "lastQuality": "perfect",
+        "lastAction": "attack",
+        "lastRoll": {
+          "raw": 3,
+          "bonus": 2,
+          "total": 5,
+          "hit": true,
+          "critical": false
+        },
+        "lastEnemyRoll": {
+          "raw": 3,
+          "bonus": 0,
+          "total": 3,
+          "hit": true,
+          "critical": false
+        },
+        "lastActionAt": 22.026999999999358,
+        "waveEndedAt": 22.246999999999357,
+        "pendingAttack": null
+      },
+      "info": {
+        "loaded": true,
+        "speed": 1.4,
+        "seed": 42,
+        "fps": 62.5,
+        "worstFrameMs": 491.70000000000005,
+        "audioState": "running",
+        "audioRms": 0,
+        "activeAudioVoices": 0,
+        "sound": {
+          "music": 0.34,
+          "effects": 0.72,
+          "muted": false
+        },
+        "atlasFrames": {
+          "hero": 8,
+          "skeleton": 6,
+          "familiar": 9
+        }
+      }
+    },
+    {
+      "name": "mobile",
+      "actions": 18,
+      "state": {
+        "phase": "won",
+        "paused": false,
+        "pauseReason": "manual",
+        "time": 22.246999999999357,
+        "wave": 2,
+        "hp": 6,
+        "maxHp": 6,
+        "enemyHp": 0,
+        "enemyMaxHp": 14,
+        "score": 2500,
+        "combo": 18,
+        "bestCombo": 18,
+        "level": 5,
+        "xp": 0,
+        "pendingUpgrades": 0,
+        "upgradesChosen": 4,
+        "upgradeMode": false,
+        "attackUpgrades": 2,
+        "windowUpgrades": 1,
+        "summonUnlocked": true,
+        "paceOffset": 0,
+        "marker": 0.4814444444444441,
+        "lockUntil": 22.37699999999936,
+        "locked": true,
+        "refreshAfterLock": true,
+        "tiles": [
+          {
+            "kind": "attack",
+            "center": 0.4808814824791625,
+            "width": 0.18
+          },
+          {
+            "kind": "slow",
+            "center": 0.7778251471696421,
+            "width": 0.18
+          }
+        ],
+        "shield": 0,
+        "shieldUntil": 0,
+        "threatUntil": 0,
+        "familiarLevel": 1,
+        "familiarUntil": 24.612999999999943,
+        "familiarCount": 2,
+        "familiarNextAttack": 22.612999999999943,
+        "enemyNextAt": null,
+        "enemyWinding": false,
+        "enemyIntent": "attack",
+        "enemyActions": 2,
+        "lastQuality": "perfect",
+        "lastAction": "attack",
+        "lastRoll": {
+          "raw": 3,
+          "bonus": 2,
+          "total": 5,
+          "hit": true,
+          "critical": false
+        },
+        "lastEnemyRoll": {
+          "raw": 3,
+          "bonus": 0,
+          "total": 3,
+          "hit": true,
+          "critical": false
+        },
+        "lastActionAt": 22.026999999999358,
+        "waveEndedAt": 22.246999999999357,
+        "pendingAttack": null
+      },
+      "info": {
+        "loaded": true,
+        "speed": 1.4,
+        "seed": 42,
+        "fps": 62.5,
+        "worstFrameMs": 475.09999999999997,
+        "audioState": "running",
+        "audioRms": 0,
+        "activeAudioVoices": 0,
+        "sound": {
+          "music": 0.34,
+          "effects": 0.72,
+          "muted": false
+        },
+        "atlasFrames": {
+          "hero": 8,
+          "skeleton": 6,
+          "familiar": 9
+        }
+      }
+    }
+  ],
+  "errors": []
+}

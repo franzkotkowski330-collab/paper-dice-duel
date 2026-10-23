@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#30291f" />
+<title>Paper Dice Duel</title>
+</head>
+<body>
+<main id="game">
+<canvas id="stage" tabindex="0" aria-label="Paper Dice Duel battlefield. Tap or press Space to stop the marker."></canvas>
+<nav id="hud-controls" aria-label="Game controls" hidden>
+<button id="pause" class="small-control" aria-label="Pause game" type="button"></button>
+<button id="mute" class="small-control" aria-label="Mute sound" type="button" aria-pressed="false"></button>
+</nav>
+<section id="overlay" aria-live="polite"></section>
+</main>
+<section id="rotation" hidden><span class="rotate-drawing" aria-hidden="true">↻</span><h1>Turn your screen</h1><p>This paper stage plays in landscape.</p></section>
+<p id="accessible-status" class="sr-only" aria-live="polite"></p>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

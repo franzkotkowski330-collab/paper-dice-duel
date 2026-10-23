@@ -1,0 +1,600 @@
+{
+  "checks": [
+    "first interaction unlocks real Web Audio with nonzero output across music loop",
+    "pause suspends audio and stops all scheduled voices",
+    "resume restarts the music scheduler",
+    "mute silences measured output",
+    "all runtime requests stay on the local game origin",
+    "failed image load has a functional retry"
+  ],
+  "audio": [
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 0,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005015292623089389,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 76.90771074527206,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005524271728019903,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 76.90771074527206,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005109484750111413,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 76.90771074527206,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.0055779588177714175,
+      "activeAudioVoices": 4,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 76.90771074527206,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.0054482210948294425,
+      "activeAudioVoices": 1,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.00612458298062,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.00583899450346748,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.00612458298062,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005359984960961951,
+      "activeAudioVoices": 1,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.00612458298062,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.014239908761150083,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.00612458298062,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.00537109375,
+      "activeAudioVoices": 4,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99400029998498,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005190500885124341,
+      "activeAudioVoices": 1,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99400029998498,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005567262817866884,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99400029998498,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.006049566256525325,
+      "activeAudioVoices": 1,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99400029998498,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005315317640887998,
+      "activeAudioVoices": 5,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 112.53298809938758,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005662799562862891,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 112.53298809938758,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.0056311340794291,
+      "activeAudioVoices": 1,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 112.53298809938758,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.004967526843109327,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99601672973513,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.010923758457615769,
+      "activeAudioVoices": 3,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99601672973513,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005393242684173467,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99601672973513,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.009010079144163054,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 119.99601672973513,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005337698024676623,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 120.00199173430258,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.010183912897760845,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 120.00199173430258,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.00509780591255398,
+      "activeAudioVoices": 4,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 120.00199173430258,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.005502650229289377,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    },
+    {
+      "loaded": true,
+      "speed": 1,
+      "seed": 4044985126,
+      "fps": 120.00199173430258,
+      "worstFrameMs": 499.9,
+      "audioState": "running",
+      "audioRms": 0.00509780591255398,
+      "activeAudioVoices": 2,
+      "sound": {
+        "music": 0.34,
+        "effects": 0.72,
+        "muted": false
+      },
+      "atlasFrames": {
+        "hero": 8,
+        "skeleton": 6,
+        "familiar": 9
+      }
+    }
+  ],
+  "network": [
+    "http://127.0.0.1:5318/",
+    "http://127.0.0.1:5318/assets/index-KzKvc_Dr.js",
+    "http://127.0.0.1:5318/assets/index-CjLju9mj.css",
+    "http://127.0.0.1:5318/assets/background.webp",
+    "http://127.0.0.1:5318/assets/hero.webp",
+    "http://127.0.0.1:5318/assets/skeleton-v2.webp",
+    "http://127.0.0.1:5318/assets/icons.webp",
+    "http://127.0.0.1:5318/assets/familiar.webp",
+    "http://127.0.0.1:5318/assets/ape.webp",
+    "http://127.0.0.1:5318/assets/shadow.webp"
+  ],
+  "errors": [],
+  "visibility": {
+    "hidden": false,
+    "state": {
+      "phase": "battle",
+      "paused": false,
+      "pauseReason": "manual",
+      "time": 13.855899999928484,
+      "wave": 0,
+      "hp": 1,
+      "maxHp": 6,
+      "enemyHp": 6,
+      "enemyMaxHp": 6,
+      "score": 0,
+      "combo": 0,
+      "bestCombo": 0,
+      "level": 1,
+      "xp": 0,
+      "pendingUpgrades": 0,
+      "upgradesChosen": 0,
+      "upgradeMode": false,
+      "attackUpgrades": 0,
+      "windowUpgrades": 0,
+      "summonUnlocked": false,
+      "paceOffset": 0,
+      "marker": 0.6977222221824627,
+      "lockUntil": 0,
+      "locked": false,
+      "refreshAfterLock": false,
+      "tiles": [
+        {
+          "kind": "attack",
+          "center": 0.49,
+          "width": 0.18
+        },
+        {
+          "kind": "guard",
+          "center": 0.8,
+          "width": 0.18
+        }
+      ],
+      "shield": 0,
+      "shieldUntil": 0,
+      "threatUntil": 0,
+      "familiarLevel": 1,
+      "familiarUntil": 0,
+      "familiarCount": 0,
+      "familiarNextAttack": null,
+      "enemyNextAt": 17,
+      "enemyWinding": false,
+      "enemyIntent": "attack",
+      "enemyActions": 4,
+      "lastQuality": null,
+      "lastAction": null,
+      "lastRoll": null,
+      "lastEnemyRoll": {
+        "raw": 1,
+        "bonus": 0,
+        "total": 1,
+        "hit": false,
+        "critical": false
+      },
+      "lastActionAt": -10,
+      "waveEndedAt": -10,
+      "pendingAttack": null
+    },
+    "note": "Headless Chrome did not expose hidden tab state; physical tab switching remains unverified."
+  },
+  "performance": {
+    "samples": [
+      76.90771074527206,
+      76.90771074527206,
+      76.90771074527206,
+      76.90771074527206,
+      119.00612458298062,
+      119.00612458298062,
+      119.00612458298062,
+      119.00612458298062,
+      119.99400029998498,
+      119.99400029998498,
+      119.99400029998498,
+      119.99400029998498,
+      112.53298809938758,
+      112.53298809938758,
+      112.53298809938758,
+      119.99601672973513,
+      119.99601672973513,
+      119.99601672973513,
+      119.99601672973513,
+      120.00199173430258,
+      120.00199173430258,
+      120.00199173430258,
+      120.00199173430258
+    ],
+    "worstFrameMs": 499.9
+  }
+}

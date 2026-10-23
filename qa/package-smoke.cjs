@@ -1,0 +1,42 @@
+require('node:fs').mkdirSync('work', { recursive: true });
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const fs = require('node:fs'), assert = require('node:assert/strict');
+const url = process.env.DUEL_URL || 'http://127.0.0.1:5318/';
+(async () => {
+  const browser = await chromium.launch({ ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}), headless: true });
+  const errors = [], failedResponses = [], requests = [], checks = [];
+  try {
+    const context = await browser.newContext({ viewport: { width: 844, height: 390 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2 });
+    const page = await context.newPage();
+    page.on('pageerror', error => errors.push(String(error)));
+    page.on('response', response => { requests.push(response.url()); if (response.status() >= 400) failedResponses.push(response.url()); });
+    await page.goto(url + '?seed=42');
+    await page.waitForFunction(() => window.__paperDuel?.info().loaded);
+    await page.clock.install({ time: new Date('2026-10-23T12:00:00Z') });
+    await page.clock.pauseAt(new Date('2026-10-23T12:00:01Z'));
+    await page.getByRole('button', { name: 'Begin the three-chapter run' }).click();
+    const count = () => page.evaluate(() => window.__paperDuel.events().filter(event => event.type === 'judgement').length);
+    assert.equal(await count(), 0);
+    for (let i = 0; i < 10; i++) await page.mouse.click(420, 200);
+    assert.equal(await count(), 1); checks.push('Ten rapid clicks produce exactly one judgement during the lock.');
+    await page.clock.runFor(400);
+    const cdp = await context.newCDPSession(page);
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: 420, y: 200 }] });
+    assert.equal(await count(), 2);
+    await page.clock.runFor(1200);
+    assert.equal(await count(), 2);
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+    assert.equal(await count(), 2); checks.push('A held touch and its compatibility events do not repeat an action.');
+    await page.touchscreen.tap(420, 200);
+    assert.equal(await count(), 3); checks.push('The next distinct touch resolves once.');
+    await page.getByRole('button', { name: 'Pause game', exact: true }).click();
+    assert.equal(await count(), 3);
+    assert.equal(await page.evaluate(() => window.__paperDuel.state().paused), true);
+    checks.push('The pause button never also triggers a combat judgement.');
+    assert.equal(requests.filter(request => new URL(request).pathname.endsWith('.webp')).length, 7);
+    assert.equal(failedResponses.length, 0); assert.equal(errors.length, 0);
+    checks.push('The packaged page loads all seven local images with no HTTP or page errors.');
+    fs.writeFileSync('work/package-report.json', JSON.stringify({ url, checks, errors, failedResponses }, null, 2));
+    for (const check of checks) console.log('PASS', check);
+  } finally { await browser.close(); }
+})().catch(error => { console.error(error); process.exitCode = 1; });
